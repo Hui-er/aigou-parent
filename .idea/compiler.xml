@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aigou-core-common" />
+        <module name="aigou-core-config" />
+        <module name="aigou-core-dao" />
+        <module name="aigou-core-domain" />
+        <module name="aigou-facade-base" />
+        <module name="aigou-mq-base" />
+        <module name="aigou-service-base" />
+        <module name="aigou-service-common" />
+        <module name="aigou-service-pay" />
+        <module name="aigou-service-plat" />
+        <module name="aigou-service-product" />
+        <module name="aigou-service-quartz" />
+        <module name="aigou-service-usercenter" />
+        <module name="aigou-web-base" />
+        <module name="aigou-web-pay" />
+        <module name="aigou-web-plat" />
+        <module name="aigou-web-usercenter" />
+        <module name="aigou-web-www" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-core-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-core-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-core-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-core-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-facade-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-mq-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-service-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-service-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-service-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-service-plat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-service-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-service-quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-service-usercenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-web-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-web-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-web-plat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-web-usercenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-web-www" charset="UTF-8" />
+  </component>
+</project>
