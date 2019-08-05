@@ -40,21 +40,25 @@ public class KV<K, V> implements Serializable {
 			return 37*result+c; 
 		}
 		if(k instanceof Byte || k instanceof Character || k instanceof Short || k instanceof Integer){
-			c = (int)k;
+			c=Integer.parseInt(k.toString());
+//			c = (int)k;
 			return 37*result+c; 
 		}
 		if(k instanceof Long){
-			long temp = (long)k;
+			long temp = Long.parseLong(k.toString());
+//			long temp = (long)k;
 			c = (int)(temp^(temp>>>32));
 			return 37*result+c; 
 		}
 		if(k instanceof Float){
-			float temp = (float)k;
+			float temp=Float.parseFloat(k.toString());
+//			float temp = (float)k;
 			c = Float.floatToIntBits(temp);
 			return 37*result+c; 
 		}
 		if(k instanceof Double){
-			long temp = Double.doubleToLongBits((double)k);
+			long temp =Double.doubleToLongBits(Double.parseDouble(k.toString()));
+//			long temp = Double.doubleToLongBits((double)k);
 			c = (int)(temp ^ (temp>>>32));
 			return 37*result+c; 
 		}

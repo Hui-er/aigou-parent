@@ -10,7 +10,7 @@ import cn.itsource.aigou.core.domain.ProductViewProperty;
 import cn.itsource.aigou.core.domain.Property;
 import cn.itsource.aigou.core.domain.Sku;
 
-public interface ProductMapper extends <Product> {
+public interface ProductMapper extends BaseMapper<Product> {
 
 	/**
 	 * 通过商品id获取属性集合

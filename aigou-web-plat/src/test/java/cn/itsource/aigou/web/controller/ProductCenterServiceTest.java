@@ -23,37 +23,34 @@ import cn.itsource.aigou.facade.UserCenterService;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath*:spring-mvc-plat.xml")
 public class ProductCenterServiceTest {
-	
+
 	@Reference
 	private ProductCenterService productCenterService;
-	
-	/*@Reference
+
+	@Reference
 	private CommonService commonService;
-	
+
 	@Reference
 	private PayCenterService payCenterService;
-	
+
 	@Reference
 	private PlatManageService platManageService;
-	
+
 	@Reference
-	private UserCenterService userCenterService;*/
-	
+	private UserCenterService userCenterService;
+
 	@Test
 	public void testName() throws Exception {
 		Product product = productCenterService.getProduct(1L);
 		System.out.println("product="+product);
-		
-		/*boolean isSend = commonService.SendSMS("", "");
-		System.out.println("isSend="+isSend);
-		
+
 		PayBill payBill = payCenterService.getPayBill(1L);
 		System.out.println("payBill="+payBill);
-		
+
 		Employee employee = platManageService.getEmployee(1L);
 		System.out.println("employee="+employee);
-		
+
 		Sso ssoUser = userCenterService.getSsoUser(1L);
-		System.out.println("ssoUser="+ssoUser);*/
+		System.out.println("ssoUser="+ssoUser);
 	}
 }
